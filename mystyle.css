@@ -1,0 +1,156 @@
+/* กำหนดค่าพื้นฐานของหน้าเว็บ */
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fdff; /* สีฟ้าอ่อน */
+    color: #333;
+}
+.about {
+    /* โค้ดเดิม */
+    padding: 40px;
+    background-image: url('resources/sunflower-background.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid #5bb3df;
+    color: #040404; /* เปลี่ยนสีตัวอักษรเป็นสีขาวเพื่อให้ตัดกับพื้นหลัง */
+}
+
+.about h2 {
+    font-family:Thasadith;
+    color: #0573fa; /* สีเหลืองของทานตะวัน */
+}
+.about p {
+    color: #0c0a0a;
+
+}
+/* ส่วนหัวของหน้า */
+.main-header {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    border-bottom: 2px solid #5bb3df;
+}
+
+.main-header h1 {
+    color: rgb(22, 122, 236); /* สีฟ้าสดใส */
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.main-header p {
+    margin: 5px 0;
+    color: #666;
+}
+
+/* ส่วนเมนู */
+.menu-section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+.menu-title {
+    text-align: center;
+    color: #007bff;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu-item {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.menu-item:hover {
+    transform: translateY(-5px);
+}
+
+.menu-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.menu-item figcaption {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 1.1em;
+}
+
+.menu-price {
+    color: #007bff;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.menu-desc {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* สไตล์สำหรับเมนูแนะนำ */
+.menu-item.recommended {
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+}
+
+.recommend-text {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* สไตล์ตารางเมนู */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #8fb5dd;
+    color: white;
+}
+
+/* ส่วนวิดีโอ */
+.video-section {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* ส่วนฟุตเตอร์ */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
